@@ -1,0 +1,27 @@
+{
+    "title": "Product List",
+    "add_to_cart": "Add to Cart",
+    "cart": "Cart",
+    "quantity": "Quantity",
+    "remove": "Remove",
+    "order": "Order",
+    "view_orders": "View Orders",
+    "order_list": "Order List",
+    "order_id": "Order ID",
+    "description": "Description",
+    "edit": "Edit",
+    "no_orders": "No orders available",
+    "previous": "Previous",
+    "next": "Next",
+    "lorem_ipsum": "Lorem Ipsum",
+    "category": "Category",
+    "no_orders_available": "No orders available",
+  
+  
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "phone_number": "Phone Number",
+      "address": "Address",
+      "email": "Email",
+      "profile_picture": "Profile Picture",
+      "save_profile": "Save Profile"}
