@@ -30,16 +30,33 @@ Product listing with search functionality
 Shopping cart
 ![Screenshot 2024-07-25 010500](https://github.com/user-attachments/assets/d036413b-4d42-43d5-8f00-7c0fbeb14db0)
 
+![Screenshot 2024-07-25 003148](https://github.com/user-attachments/assets/c20ac44e-3b81-4405-ae84-2e9b3133fa9c)
+
+User profile with translation feature in 3 languages , english , hindi , spanish using react-i18next
+![Screenshot 2024-07-17 001417](https://github.com/user-attachments/assets/cfc5e366-08d3-41d4-80a6-d9d126ff0d3d)
+![Screenshot 2024-07-17 001247](https://github.com/user-attachments/assets/e137f636-5c47-4ef9-b03a-b568e6a7d6d5)
+![Screenshot 2024-07-17 001151](https://github.com/user-attachments/assets/c44f8a30-b4a7-467c-9668-ac91f67c2da3)
+
+
+
+Database storing registered users
+
+![Screenshot 2024-07-16 230800](https://github.com/user-attachments/assets/7e47c40e-f9e6-4c2c-993d-e4abfe4abef7)
+
 Order management
 ![Screenshot 2024-07-16 235521](https://github.com/user-attachments/assets/7b5e6cf2-a2bf-44e3-be49-a051378ce236)
 
-User profile with editable information
-![Screenshot 2024-07-17 001417](https://github.com/user-attachments/assets/cfc5e366-08d3-41d4-80a6-d9d126ff0d3d)
-![Screenshot 2024-07-17 001247](https://github.com/user-attachments/assets/e137f636-5c47-4ef9-b03a-b568e6a7d6d5)
+
+profile information of the user
+![Screenshot 2024-07-16 230737](https://github.com/user-attachments/assets/2e77056c-98ba-450a-9c56-360105d0764f)
 
 
 
+Orders of particular user get stored
+![Screenshot 2024-07-16 230823](https://github.com/user-attachments/assets/771b5aca-1997-4051-a011-b3a16036eb21)
 
+JWT for authentication
+![Screenshot 2024-07-25 010702](https://github.com/user-attachments/assets/71218b59-f4c9-47e3-af38-ab6e96dbd481)
 
 Technologies Used
 
@@ -50,72 +67,25 @@ CSS for styling
 Backend
 Node.js
 Express.js
-MongoDB for the database![Screenshot 2024-07-25 005646](https://github.com/user-attachments/assets/1b5ad953-c8fe-4475-b7be-f84706c8dbbb)
-
-JWT for authentication
+MongoDB for the database
+JWT for authentication and authorization
 Multer for handling file uploads
-Installation
-Follow these steps to get the project running locally:
 
-Backend Setup
-Clone the repository:
 
-sh
-Copy code
-git clone https://github.com/yourusername/ecommerce-website.git
-cd ecommerce-website
-Navigate to the backend directory:
 
-sh
-Copy code
-cd backend
-Install dependencies:
-
-sh
-Copy code
-npm install
-Create a .env file in the backend directory and add your environment variables:
-
-env
-Copy code
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-Start the backend server:
-
-sh
-Copy code
-npm start
-Frontend Setup
-Navigate to the frontend directory:
-
-sh
-Copy code
-cd ../frontend
-Install dependencies:
-
-sh
-Copy code
-npm install
-Create a .env file in the frontend directory and add your environment variables:
-
-env
-Copy code
-REACT_APP_API_URL=http://localhost:5000/api
-Start the frontend server:
-
-sh
-Copy code
-npm start
 Usage
+
 Register a new user: Navigate to the Register page and create a new account.
 Login: Use the registered credentials to log in.
+
+JWT for authentication and authorization
 Browse Products: View the list of available products.
 Search Products: Use the search bar to find specific products.
 Add to Cart: Add products to your shopping cart.
 Checkout: Place an order for the products in your cart.
 Profile: Update your personal information and profile picture.
-Admin: Manage products and orders (admin access required).
+
+
 API Endpoints
 Here are some key API endpoints:
 
@@ -134,6 +104,7 @@ POST /api/orders - Create a new order
 Profile
 GET /api/profile - Get user profile
 PUT /api/profile - Update user profile
+
 Contributing
 Contributions are welcome! Please follow these steps:
 
